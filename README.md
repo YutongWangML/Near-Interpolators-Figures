@@ -1,6 +1,6 @@
 # Figures for "Near-Interpolators"
 Official code repository for 
-"Near-Interpolators: Rapid Norm Growth and the Trade-Off between Interpolation and Generalization:
+"Near-Interpolators: Rapid Norm Growth and the Trade-Off between Interpolation and Generalization.
 
 See below for instructions on reproducing the figures.
 
