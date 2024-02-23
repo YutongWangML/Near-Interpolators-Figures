@@ -4,7 +4,7 @@ Official code repository for
 
 See below for instructions on reproducing the figures.
 
-## Instructions Figure 1 to 4
+## Instructions: Figure 1 to 4
 For each figure panel in the paper, there are three associated directories inside the directory `figure_and_experiment_code`:
 - NAME-plot/
 - NAME-run1/
@@ -27,7 +27,7 @@ jupyter run plot_figure.ipynb
 
 The figure will be in `figure1-left-plot/outputs/`
 
-## Instructions Figure 5 and 6
+## Instructions: Figure 5 and 6
 
 Navigate to the respective folder `figure5` or `figure6`.
 
