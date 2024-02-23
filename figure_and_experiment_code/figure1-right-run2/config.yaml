@@ -1,0 +1,17 @@
+commit: 1a94ae4fc98f05d93d7a4d5a13e8f2a7e860371b
+experiment_tag: sweep_n_tr
+n_tr: 1000
+n_trs: np.logspace(2.302,3.699,20).astype(int)
+hidden_layer_sizes: (200,)
+# alpha: 1.25
+alpha: 2.5
+gamma: 2/3
+tau: 0.2
+taus: np.linspace(0.05,0.80, 16)
+n_te: 1000
+max_iter: 2000
+replicate: 2 # replicate the experiment 10 times
+method: rreg # mlp
+sweep: n_tr
+run_protocol:
+- compute.ipynb

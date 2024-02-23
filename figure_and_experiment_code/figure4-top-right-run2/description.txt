@@ -1,0 +1,1 @@
+going back to recompute the norm growth

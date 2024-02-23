@@ -1,0 +1,22 @@
+commit: 552527eb3f85d3a1bbb817c5f4b5c67d30bf6936
+experiment_tag: sweep_n_tr
+n_tr: 5000
+n_trs: np.logspace(2.302,3.699,20).astype(int)
+hidden_layer_sizes: (200,)
+alpha: 1.25 # 2.5
+gamma: 2/3
+tau: 0.2
+taus: np.linspace(0.05,0.80, 16)
+n_te: 1000
+max_iter: 2000
+replicate: 1 # replicate the experiment 10 times
+method: rreg # mlp
+sweep: tau
+run_protocol:
+- plot_figure.ipynb
+results:
+- b003dd7e0738b192bfa1a1b1392e9ae1b71ff09d # MLP
+- 37e53cc482cf86039eb5829f83da60cd115714ba
+# - d4633d7a27d83664444c61500ea9f6a0f89a5ed2 # RREG
+# - da83cb488b6f1b713ee6c2bf272d0b1f6d6f6eab
+archive_path: /home/yutongw/projects/Near-interpolators/paper_figures/archive

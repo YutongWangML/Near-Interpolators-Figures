@@ -1,0 +1,21 @@
+commit: eb781b50cef7edcb68b5020ea2ab2dab2d2122fd
+experiment_tag: sweep_n_tr
+n_tr: 5000
+n_trs: np.logspace(2.302,3.699,20).astype(int)
+hidden_layer_sizes: (200,)
+alpha: 1.25 # 2.5
+gamma: 2/3
+tau: 0.2
+taus: np.linspace(0.05,0.80, 16)
+n_te: 1000
+max_iter: 2000
+replicate: 1 # replicate the experiment 10 times
+method: rreg # mlp
+sweep: tau
+run_protocol:
+- plot_figure.ipynb
+results:
+- figure1-right-run1
+- figure1-right-run2
+archive_path: ..
+  
