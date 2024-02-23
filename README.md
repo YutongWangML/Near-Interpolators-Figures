@@ -4,6 +4,8 @@ Official code repository for
 
 See below for instructions on reproducing the figures.
 
+Note: this repository uses code from the [neural-tangent-kernel-UCI](https://github.com/LeoYu/neural-tangent-kernel-UCI) repository.
+
 ## Instructions: Figure 1 to 4
 For each figure panel in the paper, there are three associated directories inside the directory `figure_and_experiment_code`:
 - NAME-plot/
